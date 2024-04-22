@@ -1,0 +1,35 @@
+from abc import ABC, abstractmethod
+
+class menina(ABC):
+    @abstractmethod
+    def grupo(self):
+              pass
+              
+class ana(menina):
+    def grupo(self):
+              print("Eu sou Ana")
+              
+class joaquina(menina):
+    def grupo(self):
+              print("Eu sou joaquina")
+              
+class scarlet(menina):
+    def grupo(self):
+              print("Eu sou a Scarlet")
+              
+class teodora(menina):
+    def grupo(self):
+              print("Eu sou Teodora")
+              
+
+A = ana()
+A.grupo()
+
+J = joaquina()
+J.grupo()
+
+S = scarlet()
+S.grupo()
+
+T = teodora()
+T.grupo()
